@@ -1,0 +1,76 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-area a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: darkslategrey;
+  height: 60px;
+  font-family:Poppins;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.menu-area a:hover{
+  background: tomato;
+  color: #fff;
+}
+.menu-area ul{
+  list-style: none;
+  display: flex;
+}
+.menu-area li{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.menu-area li:hover .dropdown-1 > li{
+  display: block;
+  top: 0;
+}
+.dropdown-1 li{
+  display: none;
+  position: relative;
+}
+.dropdown-1{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.dropdown-1 li:hover .dropdown-2 li{
+  display: block;
+}
+.dropdown-2 li{
+  display: none;
+}
+.dropdown-2{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+}
+.banner-area{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.postimg.cc/Y0YM36yL/aa.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+}
+.banner-area h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 100px;
+	font-family: poppins;
+	letter-spacing: 2px;
+} */
